@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/styles.css">
+    <title>CSS Cheatsheet</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Box Model Cheatsheet</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is the CSS Box Model?</h2>
+            <p>The CSS Box Model is a fundamental concept that describes how elements are structured in CSS. Every element is essentially a box, consisting of four main areas:</p>
+            <ul>
+                <li><strong>Content</strong>: The actual content of the element (text, image, etc.).</li>
+                <li><strong>Padding</strong>: The space between the content and the border.</li>
+                <li><strong>Border</strong>: The outer edge of the element that surrounds the padding and content.</li>
+                <li><strong>Margin</strong>: The space outside the border that separates the element from others.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Box Model Properties</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>margin</code></td>
+                        <td>Defines the space outside the border. You can set margin for top, right, bottom, and left sides separately.</td>
+                        <td><code>margin: 10px;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>border</code></td>
+                        <td>Sets the border around the element. You can set border width, style, and color.</td>
+                        <td><code>border: 1px solid black;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>padding</code></td>
+                        <td>Defines the space between the content and the border.</td>
+                        <td><code>padding: 10px;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>height</code></td>
+                        <td>Specifies the height of the content area.</td>
+                        <td><code>height: 100px;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>width</code></td>
+                        <td>Specifies the width of the content area.</td>
+                        <td><code>width: 200px;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Box Model Example</h2>
+            <div class="box-model">
+                <div class="box">
+                    <img class="box-image" src="./resources/images/box_model.png">
+                </div>
+            </div>
+            <p class="description">In the above example, the content area is inside the padding, border, and margin layers. The dimensions of the box are adjusted based on these properties.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CSS Cheat Sheet. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
